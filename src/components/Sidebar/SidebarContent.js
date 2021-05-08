@@ -1,5 +1,4 @@
 import React from 'react'
-import MenuData from '../../dummy-menu.json'
 import Menu from './Menu'
 import '../../styles/Sidebar/Menu.css'
 
