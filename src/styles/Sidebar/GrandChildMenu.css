@@ -1,0 +1,31 @@
+.grand-child-menu {
+  padding: 12px 0px 12px 0px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.grand-child-menu.active {
+  background-color: #333232;
+  border-right: 2px solid #f7b500;
+}
+
+.grand-child-menu.disabled {
+  background-color: #1d1d1d;
+  cursor: default;
+  color: #404040;
+}
+
+.grand-child-menu .disabled-menu-text {
+  margin: 0;
+  padding-left: 78px !important;
+}
+
+.grand-child-menu:hover {
+  background-color: #333232;
+  border-right: 2px solid #f7b500;
+}
+
+.grand-child-menu-link {
+  text-decoration: none;
+  padding-left: 78px;
+}

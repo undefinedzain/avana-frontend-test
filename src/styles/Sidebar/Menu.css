@@ -1,0 +1,98 @@
+.menu {
+  padding: 12px 0px 12px 0px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.menu.active.has-child .menu-parent-title {
+  background-color: #333232;
+  border-right: 2px solid #f7b500;
+}
+
+.menu.disabled {
+  background-color: #1d1d1d;
+  cursor: default;
+  color: #404040;
+}
+
+.disabled-menu-text {
+  margin: 0;
+  padding-left: 40px;
+}
+
+.menu.has-child:hover .menu-parent-title {
+  background-color: #333232;
+  border-right: 2px solid #f7b500;
+}
+
+.menu.no-child:hover, .menu.no-child.active {
+  background-color: #333232;
+  border-right: 2px solid #f7b500;
+}
+
+.child-dropdown-menu {
+  height: 0;
+  overflow: hidden;
+}
+
+.child-dropdown-menu.open {
+  height: auto;
+}
+
+.menu-link {
+  text-decoration: none;
+  padding-left: 42px;
+}
+
+.menu-parent-title {
+  margin: 0;
+  padding: 12px 0px 12px 42px;
+}
+
+.menu-parent-title:hover {
+  background-color: #333232;
+}
+
+.menu-has-dropdown-container {
+  position: relative;
+}
+
+.menu-has-dropdown-container::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  border-top: 10px solid #d5d5d5;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.menu-has-dropdown-container::after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 4px;
+  border-top: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.menu.disabled .menu-has-dropdown-container::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  border-top: 10px solid #404040;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.menu.disabled .menu-has-dropdown-container::after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 4px;
+  border-top: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}

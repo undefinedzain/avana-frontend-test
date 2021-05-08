@@ -1,0 +1,25 @@
+.sidebar {
+  width: 380px;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #1d1d1d;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo {
+  margin-top: 54px;
+  width: 110px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 64px;
+  align-self: center;
+}
+
+.user-name {
+  color: #e8e8e8;
+}
